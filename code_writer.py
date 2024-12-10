@@ -23,7 +23,7 @@ developer = autogen.AssistantAgent(
 
 # Planner Agent: Plans the task
 describe = autogen.AssistantAgent(
-    name="Planner",
+    name="Describer",
     system_message="""Describer. Describe the code written by the developer. Explain the code in detail, including the logic and the expected output. Provide a detailed explanation of the code, including the logic and the expected output.""",
     llm_config={"config_list": config_list},
 )
